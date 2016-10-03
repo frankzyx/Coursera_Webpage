@@ -26,14 +26,14 @@ body {
 	margin-bottom: 0;
 }
 
-nav button {
+.navbar-header button.navbar-toggle {
 	border: 1px solid black;
-	float: right;
+  	clear: both;
+  	margin-top: -30px;
 }
 
-.navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+.navbar-header button.navbar-toggle a:hover {
+	background: #E7E7E7;
 }
 
 #myNavbar {
@@ -43,6 +43,10 @@ nav button {
 #nav-list {
 	margin-top: 0;
 	background-color: #dda52c;
+}
+
+#nav-list a:hover {
+  	background: #E7E7E7;
 }
 
 #nav-list li {
@@ -55,8 +59,9 @@ nav button {
 	width: 100%;
 }
 
-#main-content p {
+#home-text div {
 	background-color: #969393;
-	height: 1000px;
+	border: 10px solid white;
 }
+
 /*END MAIN CONTENT*/
